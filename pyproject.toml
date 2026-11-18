@@ -1,0 +1,14 @@
+[project]
+name = "inverted-pendulum-control"
+version = "1.0.0"
+description = "PID vs LQR vs MPC on a nonlinear inverted pendulum, plus energy-based swing-up"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "matplotlib", "cvxpy", "pillow"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+filterwarnings = ["ignore::UserWarning:cvxpy.*"]
+
+[tool.ruff]
+line-length = 120

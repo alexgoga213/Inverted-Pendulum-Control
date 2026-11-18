@@ -1,0 +1,182 @@
+{
+  "step": [
+    {
+      "controller": "PID (cascaded)",
+      "success": true,
+      "settling_time": 4.34,
+      "max_angle_deg": 11.459155902616475,
+      "overshoot_pct": 0.0,
+      "max_cart_travel": 0.9864329432944763,
+      "control_energy": 14.750510340280105,
+      "max_force": 12.0,
+      "saturation_pct": 0.0,
+      "mean_compute_ms": 0.010729251662269235
+    },
+    {
+      "controller": "LQR",
+      "success": true,
+      "settling_time": 2.3200000000000003,
+      "max_angle_deg": 12.531047619240741,
+      "overshoot_pct": 1.9124299751523965,
+      "max_cart_travel": 1.019124299751524,
+      "control_energy": 26.970367821759737,
+      "max_force": 16.222903907579994,
+      "saturation_pct": 0.0,
+      "mean_compute_ms": 0.00493375351652503
+    },
+    {
+      "controller": "MPC",
+      "success": true,
+      "settling_time": 2.3200000000000003,
+      "max_angle_deg": 12.535014944397739,
+      "overshoot_pct": 1.9605331220602373,
+      "max_cart_travel": 1.0196053312206024,
+      "control_energy": 26.977706263859176,
+      "max_force": 16.22168299453491,
+      "saturation_pct": 0.0,
+      "mean_compute_ms": 12.660073000006378
+    }
+  ],
+  "push": [
+    {
+      "controller": "PID (cascaded)",
+      "success": true,
+      "settling_time": 3.1799999999999997,
+      "max_angle_deg": 18.25166733728781,
+      "overshoot_pct": 0.0,
+      "max_cart_travel": 0.45842153868568364,
+      "control_energy": 88.15401167991787,
+      "max_force": 20.0,
+      "saturation_pct": 1.7142857142857144,
+      "mean_compute_ms": 0.009673143337879862
+    },
+    {
+      "controller": "LQR",
+      "success": true,
+      "settling_time": 1.8399999999999999,
+      "max_angle_deg": 11.175455490747028,
+      "overshoot_pct": 0.0,
+      "max_cart_travel": 0.20381131667485394,
+      "control_energy": 72.93382448192607,
+      "max_force": 20.0,
+      "saturation_pct": 1.4285714285714286,
+      "mean_compute_ms": 0.008164271712303162
+    },
+    {
+      "controller": "MPC",
+      "success": true,
+      "settling_time": 1.8399999999999999,
+      "max_angle_deg": 11.176570663129333,
+      "overshoot_pct": 0.0,
+      "max_cart_travel": 0.20382215383477584,
+      "control_energy": 72.93881146336187,
+      "max_force": 20.0,
+      "saturation_pct": 1.4285714285714286,
+      "mean_compute_ms": 10.429101433338863
+    }
+  ],
+  "weak_motor": [
+    {
+      "controller": "PID (cascaded)",
+      "success": true,
+      "settling_time": 4.4,
+      "max_angle_deg": 17.18873385392469,
+      "overshoot_pct": 0.0,
+      "max_cart_travel": 0.6660498660441008,
+      "control_energy": 13.28639003149628,
+      "max_force": 5.0,
+      "saturation_pct": 4.571428571428571,
+      "mean_compute_ms": 0.009517720235245568
+    },
+    {
+      "controller": "LQR",
+      "success": false,
+      "settling_time": NaN,
+      "max_angle_deg": 65.48055485660248,
+      "overshoot_pct": 0.0,
+      "max_cart_travel": 0.6682600415750002,
+      "control_energy": 28.027462571346675,
+      "max_force": 5.0,
+      "saturation_pct": 93.10344827586206,
+      "mean_compute_ms": 0.005074158503577627
+    },
+    {
+      "controller": "MPC",
+      "success": true,
+      "settling_time": 2.56,
+      "max_angle_deg": 17.18873385392469,
+      "overshoot_pct": 0.0,
+      "max_cart_travel": 0.6180099329959938,
+      "control_energy": 21.00714839262534,
+      "max_force": 5.0,
+      "saturation_pct": 6.2857142857142865,
+      "mean_compute_ms": 9.088387706183962
+    }
+  ],
+  "robustness": [
+    {
+      "controller": "PID (cascaded)",
+      "success": true,
+      "settling_time": 3.16,
+      "max_angle_deg": 5.729577951308237,
+      "overshoot_pct": 0.0,
+      "max_cart_travel": 0.49744294177390547,
+      "control_energy": 7.81849721250296,
+      "max_force": 5.94758517324712,
+      "saturation_pct": 0.0,
+      "mean_compute_ms": 0.010530755389481783
+    },
+    {
+      "controller": "LQR",
+      "success": true,
+      "settling_time": 1.94,
+      "max_angle_deg": 7.228053545497487,
+      "overshoot_pct": 3.359969895863646,
+      "max_cart_travel": 0.5167998494793182,
+      "control_energy": 13.08920642249979,
+      "max_force": 8.000057146108862,
+      "saturation_pct": 0.0,
+      "mean_compute_ms": 0.005982252769172192
+    },
+    {
+      "controller": "MPC",
+      "success": true,
+      "settling_time": 1.94,
+      "max_angle_deg": 7.230074942257157,
+      "overshoot_pct": 3.338827753118334,
+      "max_cart_travel": 0.5166941387655917,
+      "control_energy": 13.004557409575769,
+      "max_force": 7.999400927200102,
+      "saturation_pct": 0.0,
+      "mean_compute_ms": 34.306592744542286
+    }
+  ],
+  "swingup": [
+    {
+      "controller": "Swing-up + LQR",
+      "success": true,
+      "settling_time": 3.24,
+      "max_angle_deg": 27.279174640664422,
+      "overshoot_pct": 0.0,
+      "max_cart_travel": 0.6295844932468108,
+      "control_energy": 71.35877345235201,
+      "max_force": 18.80255128092554,
+      "saturation_pct": 0.0,
+      "mean_compute_ms": 0.008992611430585384
+    }
+  ],
+  "envelope": {
+    "PID (cascaded)": 0.5416666666666666,
+    "LQR": 0.4722222222222222,
+    "MPC": 0.5277777777777778
+  },
+  "swingup_catch_time": 2.02,
+  "lqr_gain": [
+    [
+      -15.84314494597994,
+      -15.47866251058891,
+      -81.1145195378999,
+      -14.71567674990819
+    ]
+  ]
+}
