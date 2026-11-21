@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-SciPy-013243?logo=numpy&logoColor=white)
 ![CVXPY](https://img.shields.io/badge/CVXPY-OSQP-FF6F00)
-![Tests](https://github.com/alexgoga213/inverted-pendulum-control/actions/workflows/tests.yml/badge.svg)
+![Tests](https://github.com/alexgoga213/Inverted-Pendulum-Control/actions/workflows/tests.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 <p align="center">
@@ -107,7 +107,7 @@ Linearizing around upright gives an **unstable** system (one pole in the right h
 ## 📁 Project structure
 
 ```
-inverted-pendulum-control/
+Inverted-Pendulum-Control/
 ├── pendulum/
 │   ├── model.py            # nonlinear dynamics, RK4, linearization, ZOH discretization, energy
 │   ├── simulate.py         # closed loop: saturation, noise, disturbances, model mismatch
